@@ -1,0 +1,24 @@
+/* NAVBAR STYLING */
+.navbar {
+  background-color: #e11d48;
+  display: flex;
+  gap: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.navbar img {
+  width: 300px;
+  margin-right: auto;
+}
+.navbar h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 26px;
+  margin-top: 12px;
+}
+/* SEARCH QUERY STYLING */
+.navbar input {
+  margin-top: 22px;
+  border: none;
+  background-color: #f2f2f2;
+  height: 1.25rem;
+}
