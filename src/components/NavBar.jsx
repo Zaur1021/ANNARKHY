@@ -2,14 +2,20 @@ import styles from "./NavBar.module.css";
 function NavBar() {
   return (
     <nav className={styles.navbar}>
-      <img src="img/5.png" alt="ANNARKHY logo" />
+      <div className={styles.logo}>
+        <img src="img/3.png" alt="ANNARKHY logo" />
+        <h1>ANNARKHY</h1>
+      </div>
 
-      <input type="text" placeholder=" " />
+      <label className={styles.customField}>
+        <input type="text" placeholder=" " />
+        <span className={styles.placeholder}>Search</span>
+      </label>
 
-      <h2>WOMEN'S</h2>
-      <h2>MEN'S</h2>
-      <h2>NEW RELEASES</h2>
-      <h2>SALE'S</h2>
+      <button>WOMEN'S</button>
+      <button>MEN'S</button>
+      <button>NEW RELEASES</button>
+      <button>SALE'S</button>
     </nav>
   );
 }
